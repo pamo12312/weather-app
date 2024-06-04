@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
 <div class="h-dvh flex  justify-center">
 <div class="  flex flex-col items-center">
 <div class="flex justify-center text-3xl">Enter a city</div>
-<form id="weatherForm" class="mt-4 flex justify-center flex-row h-16">
+<form id="weatherForm" class="mt-4 flex justify-center flex-row h-14">
   <label for="city" class="block"></label>
   <input type="text" id="city" name="cityInput" required class="border rounded-xl border-black p-2">
   <button type="submit" id="search" disabled class="bg-black text-white px-2 py-2  rounded-2xl ml-5">Find Weather</button>

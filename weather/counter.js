@@ -53,8 +53,9 @@ export function weather(element) {
       weatherR.className = 'flex flex-col items-start';
       elements.weatherR.appendChild(weatherR);
     } else {
+
       const errorParagraph = document.createElement('p');
-      errorParagraph.textContent = 'City not found. Please try again.';
+      errorParagraph.textContent = 'Nenalezeno';
       errorParagraph.className = "text-red-500";
       elements.weatherR.appendChild(errorParagraph);
     }
